@@ -1,7 +1,9 @@
+import useCurrencyInfo from "./hooks/useCurrencyInfo";
 function App() {
+  useCurrencyInfo(`usd`);
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1 className="text-orange-500">Vite + React okay</h1>
     </>
   );
 }
